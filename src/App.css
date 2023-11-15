@@ -1,0 +1,9 @@
+@import url(/src/views/components/card/card.css);
+@import url(/src/views/components/footer/footer.css);
+@import url(/src/views/components/header/header.css);
+@import url(/src/views/pages/1.home/home.css);
+@import url(/src/views/pages/2.categories/categories.css);
+@import url(/src/views/pages/3.basket/basket.css);
+@import url(/src/views/pages/4.details/details.css);
+@import url(/src/views/pages/5.saved/saved.css);
+@import url(/src/views/pages/6.profile/profile.css);
