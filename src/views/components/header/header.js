@@ -2,7 +2,7 @@ let Header =
         /*html*/`
         <nav class="nav-bar">
             <div class="home-logo">
-                <a href="#/"><img src="./public/images/e-shop-logo.png" alt=""></a>
+                <a href=""><img src="./public/images/e-shop-logo.png" alt=""></a>
             </div>
             <div class="search-container">
                 <input class="search" type="search">
@@ -26,5 +26,6 @@ let Header =
                 </li>
             </ul>
     </nav>
+    <div></div>
         `
 export default Header;  

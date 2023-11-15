@@ -1,11 +1,3 @@
-let Navbar = {
-    render: async () => {
-        let view =  /*html*/`
-        `
-        return view
-    },
-    after_render: async () => { }
-
-}
-
-export default Navbar;
+let Saved = document.createElement('div')
+Saved.classList.add('saved-container')
+export default Saved

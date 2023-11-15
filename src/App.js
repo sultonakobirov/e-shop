@@ -7,12 +7,19 @@ import fetchData from './views/pages/1.home/home.js';
 // import Saved       from './views/pages/5.saved/saved.js'
 // import Profile     from './views/pages/6.profile/profile.js'
 // import Error404    from './views/pages/7.error/error.js'
+
+
 import Header      from './views/components/header/header.js'
+import productCard from './views/components/card/card.js';
 // import Footer      from './views/components/footer/footer.js' 
 
+    
 // import Utils       from './services/Utils.js'
 
+
+
 document.addEventListener('DOMContentLoaded', function () {
+
     const app = document.getElementById('app');
     const header = document.getElementById('header-container')
     
@@ -21,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function renderHome() {
+
         fetchData()
     .then(htmlString => {
         // В этом блоке вы можете использовать результат выполнения fetchData
@@ -39,9 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderCart() {
         app.innerHTML = '';
     }
+
     function renderSaved() {
         app.innerHTML = '<h2>Ваш сохраненный пока пустой</h2>';
     }
+
     function handleNavigation() {
         const route = window.location.hash.substr(2);
         switch (route) {
